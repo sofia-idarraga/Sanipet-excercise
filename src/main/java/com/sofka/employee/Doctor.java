@@ -6,8 +6,7 @@ public class Doctor extends Employee{
 
 
     public Doctor(String name, String surname, int workday){
-        this.name = name;
-        this.surname = surname;
+        super(name, surname);
         setSchedule(workday);
     }
 

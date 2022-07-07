@@ -8,6 +8,11 @@ public abstract class Employee {
     protected String surname;
     protected List<Schedule> schedules = new ArrayList<>();
 
+    public Employee(String name, String surname){
+        this.name = name;
+        this.surname = surname;
+    }
+
     public String getName(){
         return this.name;
     }

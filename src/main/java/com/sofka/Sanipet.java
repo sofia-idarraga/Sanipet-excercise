@@ -25,7 +25,7 @@ public class Sanipet {
         System.out.println("------------------------------------");
 
         System.out.println("------------------------------------");
-        Stylist stylist = new Stylist("Marta", "Lloy");
+        Stylist stylist = new Stylist("Marta", "Lloyd");
         System.out.println(stylist.getName()+" "+stylist.getSurname());
         stylist.getSchedules();
 
